@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
+    <header class="top-header">
         <div class="header__top">
             <div class="header__column">
                 <i class="fas fa-plane"></i>
@@ -20,21 +23,43 @@
             <div class="header__column">
                 <i class="fas fa-moon"></i>
                 <i class="fab fa-bluetooth-b"></i>
-                <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
+                <span class="header__battery">66%
+                    <i class="fas fa-battery-three-quarters"></i>
+                </span>
             </div>
         </div>
         <div class="header__bottom">
             <div class="header__column">
-                <i class="fa fa-chevron-left fa-lg"></i>
-            </div>
-            <div class="header__column">
-                <i class="fa fa-times fa-lg"></i>
+                <a href="index.html">
+                    <i class="fa fa-times fa-lg"></i>
+                </a>
             </div>
             <div class="header__column">
                 <i class="fa fa-user fa-lg"></i>
             </div>
         </div>
     </header>
-    
+
+    <main class="profile">
+        <header class="profile__header">
+            <img src="images/avatar.jpg" alt="avatar">
+            <h3 class="profile__header-title">Kyeongpil</h3>
+        </header>
+        <input type="text" placeholder="rudvlf0413@gmail.com">
+        <div class="profile__actions">
+            <div class="profile__action">
+                <span class="profile__action-circle"></span>
+                <i class="fas fa-comment fa-2x"></i>
+                <span class="profile__action-title">My Chatroom</span>
+            </div>
+            <div class="profile__action">
+                <span class="profile__action-circle"></span>
+                <i class="fas fa-pencil-alt fa-2x"></i>
+                <span class="profile__action-title">Edit profile</span>
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>
